@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="styleadop.css" rel="stylesheet">
 
-    <title>Mon espace personnel</title>
+    <title>Adoption</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
@@ -26,81 +26,85 @@
         <div class="row row-cols-1 row-cols-sm-2">
             <article class="col p-2">
                 <div class="card">
-                    <img src="http://placeimg.com/600/200/arch" class="card-img-top rounded-lg" alt="">
+                    <img src="image projet/masha.jpg" class="card-img-top rounded-lg" alt="masha">
                     <div class="card-body">
                         <h5 class="card-title">Masha</h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Pellentesque semper mi est, ac molestie nibh laoreet in.
-                            Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.
+                           Masha c'est un chat tres calin et calme pourtan aux passer tres dificile .elle 
+                           a ete secouru il y a 2mois soigner, vacciner et recu des traitement contre les puce 
+                           aujourdhuit elle aten une nouvel famille pour refaire ca vie ...
                         </p>
-                        <a href="#" class="btn btn-secondary">Adopter...</a>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#joinModal" type="button">Adopter</button>
                     </div>
                 </div>
             </article>
             <article class="col p-2">
                 <div class="card">
-                    <img src="http://placeimg.com/600/200/arch" class="card-img-top rounded-lg" alt="">
+                    <img src="image projet/minou.jpg" class="card-img-top rounded-lg" alt="minou">
                     <div class="card-body">
                         <h5 class="card-title">Minou</h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Pellentesque semper mi est, ac molestie nibh laoreet in.
-                            Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.
+                            Minou notre petit dernier chaton nee au seint de assosiation il y a 1moi, tres joueur 
+                            et en meme temps tres calin il sera pret pour etre addopter d'ici 1mois 
                         </p>
-                        <a href="#" class="btn btn-secondary">Adopter...</a>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#joinModal" type="button">Adopter</button>
                     </div>
                 </div>
             </article>
             <article class="col p-2">
                 <div class="card">
-                    <img src="http://placeimg.com/600/200/arch" class="card-img-top rounded-lg" alt="">
+                    <img src="image projet/laiko.jpg" class="card-img-top rounded-lg" alt="laiko">
                     <div class="card-body">
                         <h5 class="card-title">Laiko</h5>
                         <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Pellentesque semper mi est, ac molestie nibh laoreet in.
-                            Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.
+                            Laiko a 3ans il a ete secouru dans un bois au alentour de nantes attacher a un arbre
+                            tres afaibli aujourdhuit il se porte a merveil ces u, chien tres calme qu'a besoin
+                            d'espace pour pouvoire s'epanouire et il a besoin d'une famille aimant qui prend soin
+                            lui .
                         </p>
-                        <a href="#" class="btn btn-secondary">Adopter...</a>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#joinModal" type="button">Adopter</button>
                     </div>
                 </div>
             </article>
         </div>
-    </section>
-    <!--modal-->
-    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="contactModalLabel">Me contacter</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="email">Expéditeur</label>
-                            <input type="email" class="form-control" id="email" name="email">
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Sujet</label>
-                            <input type="text" class="form-control" id="subject" name="subject">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" id="message" name="message" rows="3"></textarea>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                    <button type="button" class="btn btn-primary">Envoyer le message</button>
+
+
+
+        <div class="modal fade" id="joinModal" tabindex="-1" role="dialog" aria-labelledby="joinModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="joinModalLabel">Adoption</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+    
+                            <div class="form-group">
+                                <label for="name">Nom</label>
+                                <input type="text" class="form-control" id="name" name="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">e-mail</label>
+                                <input type="email" class="form-control" id="email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        <button type="button" class="btn btn-primary">Réserve</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    
 </main>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -113,3 +117,5 @@
         crossorigin="anonymous"></script>
 </body>
 </html>
+ 
+            

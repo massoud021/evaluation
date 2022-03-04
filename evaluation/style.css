@@ -158,12 +158,14 @@ section p {
 
 aside {
     grid-area: aside;
-    background-color: rgb(77, 48, 48);
+    
     height: 600px;
 }
-#soldes {
-    background-image:url(/image\ projet/soldes.jpg);
+.soldes {
+    height: 610px;
+    width: 400px;
 }
+
     
    
 
