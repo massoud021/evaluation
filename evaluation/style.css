@@ -156,18 +156,17 @@ section p {
 
 
 
-aside {
-    grid-area: aside;
-    
-    height: 600px;
-}
 .soldes {
-    height: 610px;
+    height: 590px;
     width: 400px;
+    box-shadow: 5px 5px 5px rgb(25, 26, 24);
 }
 
     
    
+
+
+
 
 
 footer{
@@ -176,12 +175,6 @@ footer{
 }
     
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
-
-* {
-  font-family: Open Sans;
-}
-
-
 
 
 
@@ -350,6 +343,9 @@ footer{
   }
 
 }
+
+
+
   
 
     
